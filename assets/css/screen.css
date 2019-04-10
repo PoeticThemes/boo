@@ -18,7 +18,8 @@
     11. Footer
     12. Media Queries (Tablet)
     13. Media Queries (Mobile)
-    14. Animations
+    14. Media Queries (Prefers Color Scheme/Dark Mode)
+    15. Animations
 
 */
 
@@ -2332,7 +2333,55 @@ figcaption {
 
 
 /* ==========================================================================
-   14. Animations
+   14. Media Queries - Prefers Color Scheme/Dark Mode
+   ========================================================================== */
+
+@media (prefers-color-scheme:dark) {
+    .site-wrapper {
+        background: #000;
+    }
+
+    a {
+        color: #a8a8a8;
+    }
+    a:hover {
+        color: #b5b5b5;
+    }
+
+    body {
+        color: #d1d1d1;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: #e9e9e9;
+    }
+
+    blockquote {
+        border-left: #a8a8a8 .4em solid;
+    }
+
+    .post {
+        border-bottom: #191919 1px solid;
+    }
+
+    .extra-pagination {
+        border-bottom: #27292a 1px solid;
+    }
+    .extra-pagination:after {
+        box-shadow: #000 0 0 0 5px;
+        background: #000;
+        border: #27292a 1px solid;
+    }
+
+    code, tt {
+        background: #272828;
+        border: #383c3f 1px solid;
+    }
+}
+
+
+/* ==========================================================================
+   15. Animations
    ========================================================================== */
 
 /* Used to fade in title/desc on the home page */
