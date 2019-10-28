@@ -2353,7 +2353,7 @@ figcaption {
     padding: 20px;
 }
 
-.kg-bookmark-title {
+.kg-bookmark-title, .kg-bookmark-publisher {
     font-weight: 600;
 }
 
