@@ -2330,9 +2330,20 @@ figcaption {
 
 }
 
+/* ==========================================================================
+   14. Bookmarks
+   ========================================================================== */
+
+.kg-bookmark-container {
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    text-decoration: none;
+    border: 2px solid blue;
+}
 
 /* ==========================================================================
-   14. Animations
+   15. Animations
    ========================================================================== */
 
 /* Used to fade in title/desc on the home page */
