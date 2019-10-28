@@ -2342,6 +2342,10 @@ figcaption {
     border: 2px solid blue;
 }
 
+.kg-bookmark-card {
+    display: flex;
+}
+
 .kg-bookmark-content {
     flex-basis: 0;
     flex-grow: 999;
